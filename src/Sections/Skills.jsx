@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Styles/Skills.css";
 import html from "../assets/html.svg";
 import css from "../assets/css.svg";
@@ -17,6 +17,9 @@ import nodeJs from "../assets/node-js.svg";
 import npm from "../assets/npm.svg";
 import vite from "../assets/vite.svg";
 import FadeInSection from "../Utills/FadeInSection";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Skills = () => {
   const techs = [
@@ -39,20 +42,28 @@ const Skills = () => {
     { img: nodeJs, name: "Node JS" },
     { img: npm, name: "NPM" },
   ]
+  useEffect(()=>{
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in',
+      delay: 100,
+    });
+  },[])
   return (
     <section id="skills">
       <div className="skillsMainContainer">
         <h1 className="skillsHeading">Tech-Stack</h1>
         <div className="skillsCardsMainDiv">
           {techs.map((ele, ind) => (
-            <FadeInSection key={ind}>
+            <div data-aos="fade-up" key={ind}>
               <div className="skillsCard" key={ind}>
                 <div className="skillsImgDiv">
                   <img className="skillsImg" src={ele.img} alt="" />
                 </div>
                 <h3 className="skillsText">{ele.name}</h3>
               </div>
-            </FadeInSection>
+            </div>
           ))}
         </div>
       </div>
@@ -60,14 +71,14 @@ const Skills = () => {
         <h1 className="skillsHeading">Tech-Tools</h1>
         <div className="skillsCardsMainDiv">
           {tools.map((ele, ind) => (
-            <FadeInSection key={ind}>
+            <div data-aos="fade-up" key={ind}>
               <div className="skillsCard" key={ind}>
                 <div className="skillsImgDiv">
                   <img className="skillsImg" src={ele.img} alt="" />
                 </div>
                 <h3 className="skillsText">{ele.name}</h3>
               </div>
-            </FadeInSection>
+            </div>
           ))}
         </div>
       </div>

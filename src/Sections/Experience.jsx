@@ -1,15 +1,24 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "../Styles/Experience.css";
 import experienceImg from "../assets/experience.png";
-import FadeInSection from "../Utills/FadeInSection";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Experience = () => {
+  useEffect(()=>{
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in',
+      delay: 100,
+    });
+  },[])
   return (
     <section id="experience">
       <div className="experienceMainContainer">
         <h1 className="experiencceHeading">Experience</h1>
         <div className="experienceContainer">
           <div className="experienceCradsMainDiv">
-            <FadeInSection>
+            <div data-aos="fade-up">
               <div className="experienceCompanyDiv">
                 <h2 className="experienceH2Text">
                   Company:{" "}
@@ -30,8 +39,8 @@ const Experience = () => {
                   </span>
                 </h2>
               </div>
-            </FadeInSection>
-            <FadeInSection>
+            </div>
+            <div data-aos="fade-up">
               <div className="experienceRoles-Responsibilities">
                 <h2 className="experienceH2Text">Roles & Resposibilities</h2>
                 <ul style={{ margin: "0%" }}>
@@ -48,7 +57,7 @@ const Experience = () => {
                   </li>
                 </ul>
               </div>
-            </FadeInSection>
+            </div>
           </div>
           <div className="experienceVectorDiv">
             <img className="experienceVector" src={experienceImg} alt="" />

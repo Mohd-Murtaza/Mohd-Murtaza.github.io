@@ -1,10 +1,20 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "../Styles/Education.css";
 import education from "../assets/education.png";
 import masai from "../assets/masai.png";
 import CBSE from "../assets/CBSE.png";
-import FadeInSection from "../Utills/FadeInSection";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Education = () => {
+  useEffect(()=>{
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: 'ease-in',
+      delay: 100,
+    });
+  },[])
   return (
     <section id="education">
       <div className="educationMainContainer">
@@ -12,7 +22,7 @@ const Education = () => {
         <div className="educationContainer">
           <img className="educationVector" src={education} alt="" />
           <div className="educationCardsMainCont">
-            <FadeInSection>
+            <div data-aos="fade-up">
               <div className="educationCard">
                 <div className="educationCardImgDiv">
                   <img className="schoolsImg" src={masai} alt="" />
@@ -27,8 +37,8 @@ const Education = () => {
                   </h3>
                 </div>
               </div>
-            </FadeInSection>
-            <FadeInSection>
+            </div>
+            <div data-aos="fade-up">
               <div className="educationCard">
                 <div className="educationCardImgDiv">
                   <img className="schoolsImg" src={CBSE} alt="" />
@@ -39,8 +49,8 @@ const Education = () => {
                   <h3 className="educationSchoolText">Delhi, India</h3>
                 </div>
               </div>
-            </FadeInSection>
-            <FadeInSection>
+            </div>
+            <div data-aos="fade-up">
               <div className="educationCard">
                 <div className="educationCardImgDiv">
                   <img className="schoolsImg" src={CBSE} alt="" />
@@ -51,7 +61,7 @@ const Education = () => {
                   <h3 className="educationSchoolText">Delhi, India</h3>
                 </div>
               </div>
-            </FadeInSection>
+            </div>
           </div>
         </div>
       </div>
