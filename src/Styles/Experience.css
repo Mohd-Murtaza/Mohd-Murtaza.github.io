@@ -1,0 +1,107 @@
+.experienceMainContainer{
+    width: 85%;
+    /* height: 100vh; */
+    margin: auto;
+    margin-top: 50px;
+}
+.experiencceHeading{
+    text-align: start;
+    font-size: 58px;
+    color: var(--secondary-color);
+}
+.experienceContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.experienceCompanyDiv,.experienceRoles-Responsibilities{
+    padding: 25px;
+    margin: 25px 0px;
+    border-radius: 20px;
+    background-color: #41a399a4;
+    transition: .5s;
+}
+.experienceCompanyDiv:hover, .experienceRoles-Responsibilities:hover{
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: hsla(174, 43%, 45%, 0.4) 0px 5px, hsla(174, 43%, 45%, 0.3) 0px 10px, hsla(174, 43%, 45%, 0.2) 0px 15px, hsla(174, 43%, 45%, 0.1) 0px 20px, hsla(174, 43%, 45%, 0.05) 0px 25px;
+    .experienceSpanText,.experienceLiText{
+        color: var(--secondary-color);
+    }
+    
+}
+.experienceH2Text{
+    color: white;
+    margin: 5px;
+}
+.experienceSpanText{
+    color: var(--primary-color);
+    font-size: 18px;
+    transition: .5s;
+}
+.experienceLiText{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary-color);
+    transition: .5s;
+}
+.experienceVector{
+    width: 400px;
+    height: 500px;
+}
+
+
+@media all and (max-width: 1160px) {
+    .experienceVectorDiv{
+        margin: auto;
+    }
+    .experienceVector{
+        width: 300px;
+        height: 400px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .experienceMainContainer{
+        width: 80%;
+        margin: auto;
+    }
+    .experienceCradsMainDiv{
+        width: 100%;
+    }
+    .experienceCompanyDiv,.experienceRoles-Responsibilities{
+        padding: 25px;
+        margin: 25px auto;
+        width: 90%;
+    }
+    .experienceVectorDiv{
+        display: none;
+    }
+}
+@media all and (max-width: 768px){
+    .experienceMainContainer{
+        width: 95%;
+        margin: auto;
+    }
+    .experiencceHeading{
+        text-align: center;
+        font-size: 42px;
+    }
+    .experienceCradsMainDiv{
+        margin: auto;
+        width: 95%;
+    }
+    .experienceCompanyDiv,.experienceRoles-Responsibilities{
+        padding: 5px;
+        margin: 25px auto;
+        width: 95%;
+    }
+    .experienceH2Text{
+        font-size: 18px;
+    }
+    .experienceSpanText{
+        font-size: 16px;
+    }
+    .experienceVectorDiv{
+        display: none;
+    }
+}

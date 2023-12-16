@@ -1,0 +1,129 @@
+.educationMainContainer{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    
+    /* background-color: aliceblue; */
+}
+.educationHeading{
+    text-align: end;
+    color: var(--secondary-color);
+    font-size: 58px;
+    margin: 0%;
+}
+.educationContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.educationVector{
+    width: 500px;
+    /* border: 2px solid black; */
+}
+.educationCardsMainCont{
+    /* background-color: red; */
+    width: 50%;
+}
+.educationCard{
+    padding: 25px;
+    margin: 25px 0px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #41a399a4;
+    transition: .5s;
+}
+.educationCard:hover{
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: hsla(174, 43%, 45%, 0.4) 0px 5px, hsla(174, 43%, 45%, 0.3) 0px 10px, hsla(174, 43%, 45%, 0.2) 0px 15px, hsla(174, 43%, 45%, 0.1) 0px 20px, hsla(174, 43%, 45%, 0.05) 0px 25px;
+    .schoolsImg{
+        border: 5px solid var(--secondary-color);
+    }
+    .educationDurationText{
+        color: var(--secondary-color);
+    }
+}
+.educationCardImgDiv{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 25px;
+}
+.schoolsImg{
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid var(--primary-color);
+    transition: .5s;
+}
+.educationCardTextDiv{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.educationDurationText{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 18px;
+    transition: .5s;
+}
+.educationSchoolText{
+    /* color: var(--font-color); */
+    color: white;
+    margin: 12px 0px 0px
+}
+
+
+
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .educationMainContainer{
+        width: 95%;
+    }
+    .educationVector{
+        width: 300px;
+        height: 300px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .educationCardsMainCont{
+        width: 60%;
+    }
+    .educationCard{
+        padding: 10px;
+        margin: 25px 0px;
+    }
+}
+@media all and (max-width: 768px){
+    .educationMainContainer{
+        width: 95%;
+    }
+    .educationContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .educationVector{
+        width: 260px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .educationHeading{
+        text-align: center;
+        font-size: 42px;
+    }
+    .educationCardsMainCont{
+        width: 100%;
+    }
+    .educationCard{
+        padding: 10px;
+        margin: 25px 0px;
+    }
+    .schoolsImg{
+        width: 60px;
+    }
+    .educationDurationText{
+        font-size: 16px;
+    }
+    .educationSchoolText{
+        font-size: 16px;
+        margin: 5px 0px 0px
+    }
+}

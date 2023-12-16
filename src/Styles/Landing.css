@@ -1,0 +1,155 @@
+.landingMainContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.landingLeftContainer{
+    background-color: var(--secondary-color);
+    height: 100vh;
+    width: 35%;
+}
+
+.profileImg{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    /* top: calc(50%-200px); */
+    /* left: calc(35% -200px); */
+    top: 50%;
+    left: 35%;
+    transform: translateX(-50%) translateY(-50%);;
+    transition: .8s;
+    z-index: 0;
+}
+.profileImg:hover{
+    box-shadow: var(--secondary-color) 0px 2px 40px 0px, var(--secondary-color) 0px 2px 160px 10px;
+}
+.landingRightContainer{
+    margin: auto;
+    width: 65%;
+}
+.landingDetailsContainer{
+    margin: auto;
+    margin-right: 10%;
+    width: 50%;
+}
+.landingH1Details{
+    font-size: 58px;
+    font-family: sans-serif;
+    color: var(--secondary-color);
+}
+.landingH3Details{
+    font-family: sans-serif;
+    color: var(--font-color);
+    font-size: 22px;
+}
+.landingBtnDiv{
+     display: flex;
+}
+.landingCV-Btn, .landingContact-Btn{
+    background-color: transparent;
+    border: 2px solid var(--secondary-color);
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    transition:.3s ease-in;
+}
+.landingContact-Btn{
+   background-color: var(--secondary-color);
+   color: var(--primary-color); 
+   margin-left: 30px;
+}
+.landingCV-Btn:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid white;
+    color: var(--primary-color);
+    font-weight: bold;
+    scale: 1.05;
+}
+.landingContact-Btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid var(--secondary-color);
+    font-weight: bold;
+    color: white;
+    scale: 1.05;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .profileImg{
+        width: 300px;
+        height: 300px;
+    }
+    .landingDetailsContainer{
+        margin-right: 5%;
+        width: 60%;
+    }
+    .landingH1Details{
+        font-size: 48px;
+        margin: 8px 0px 16px;
+    }
+    .landingH3Details{
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .landingCV-Btn, .landingContact-Btn{
+        font-size: 1rem;
+    }
+    .landingContact-Btn{
+       margin-left: 20px;
+    }
+}
+ @media all and (max-width: 768px){
+    .landingMainContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .profileImg{
+        width: 150px;
+        height: 150px;
+        top: 25%;
+        left: 50%;
+    }
+    .landingLeftContainer{
+        height: 25vh;
+        width: 100%;
+    }
+    .profileImg{
+        border: 5px solid var(--primary-color);
+        width: 150px;
+        height: 150px;
+    }
+    .landingRightContainer{
+        width: 90%;
+        margin-top: 100px;
+    }
+    .landingDetailsContainer{
+        text-align: center;
+        width: 100%;
+    }
+    .landingH1Details{
+        font-size: 48px;
+        margin: 8px 0px 16px;
+    }
+    .landingH3Details{
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .landingBtnDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+   }
+    .landingCV-Btn, .landingContact-Btn{
+        font-size: .8rem;
+    }
+    .landingContact-Btn{
+       margin-left: 0px;
+    }
+} 

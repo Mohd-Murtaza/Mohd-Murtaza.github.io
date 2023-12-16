@@ -1,0 +1,197 @@
+.contactMainContainer{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.contactHeading{
+    color: var(--secondary-color);
+    font-size: 58px;
+}
+.contactContainer{
+    display: flex;
+    justify-content: space-evenly; 
+    
+}
+.contactInputContainer{
+    width: 35%;
+    /* background-color: aqua; */
+}
+.contactDetailsContainer{
+    width: 35%;
+    /* background-color: brown; */
+}
+.contactImgContainer{
+    width: 30%;
+    /* background-color: blueviolet; */
+}
+.contactInp{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.contactInp>label{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: var(--secondary-color);
+    font-size: 14px;
+    padding: 2px 5px;
+    background-color: #1e2929;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    background: transparent;
+    border: solid 4px var(--secondary-color);
+    transition: all .3s ease;
+    margin: 25px 0px;
+    padding: 0px 15px;
+    border-radius: 10px;
+    color: white;
+}
+.input:focus{
+    box-shadow: hsla(174, 43%, 45%, 0.4) 0px 2px 4px 0px, hsla(0, 0%, 100%, 0.8) 0px 2px 16px 0px;
+    outline: none;
+}
+.contactInputContainer>.contactInp:nth-child(3)>.input{
+    height: 120px;
+    /* margin: 0%; */
+    padding: 15px !important;
+}
+
+.SendBtn{
+    width: 100px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    transition: all .3s ease;
+}
+.SendBtn:hover{
+    background-color: white;
+    color: var(--primary-color);
+    scale: 1.05;
+}
+
+
+
+
+
+.contactDetails{
+    display: flex;
+    padding: 5px;
+    margin: 30px 0px;
+}
+.contactImgDiv{
+    width: 40px;
+    height: 40px;
+    /* background-color: red; */
+    transition: all .3s ease;
+}
+.contactImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color:var(--secondary-color);
+    transition: all .3s ease;
+}
+.contactImg:hover{
+    scale: 1.25;
+    background-color: white;
+}
+.ccontactText{
+    margin: auto;
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.contactImgContainer{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.contactUsHeading{
+    text-align: center;
+    color: var(--secondary-color);
+}
+.contactUsImg{
+    width: 350px;
+}
+
+
+
+
+@media all and (max-width: 1160px) {
+    .contactUsHeading{
+        font-size: 24px;
+    }
+    .contactUsImg{
+        width: 300px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .contactImgContainer{
+        margin-bottom: 20px;
+    }
+    .contactUsHeading{
+        display: none;
+    }
+    .contactUsImg{
+        width: 230px;
+        height: 230px;
+    }
+}
+@media all and (max-width: 768px) {
+    .contactHeading{
+        font-size: 42px;
+        text-align: center;
+    }
+    .contactContainer{
+        flex-direction: column;
+    }
+    .contactInputContainer{
+        width: 100%;
+        margin: auto;
+    }
+    .input{
+        width: 80%;
+        margin: 25px auto;
+    }
+    .contactInp>label{
+        left: 10%;
+    }
+    .SendBtn{
+        margin-left: 10%;
+    }
+    .contactDetailsContainer{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .contactDetails{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .contactImgDiv{
+        width: 30px;
+        height: 30px;
+    }
+    .contactImg{
+        width: 20px;
+        height: 20px;
+    }
+    .ccontactText{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .contactImgContainer{
+        display: none;
+    }
+}

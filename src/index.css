@@ -1,0 +1,14 @@
+
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: var(--primary-color);
+  /* background-color: black; */
+  font-family: sans-serif;
+}
+:root{
+  --secondary-color: #41A399;
+  --primary-color: #0d1212ee;
+  --font-color: #cdcdcd;
+}
+

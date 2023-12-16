@@ -1,0 +1,64 @@
+#githubMainDiv{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.githubHeading{
+    text-align: center;
+    font-size: 58px;
+    color: var(--secondary-color);
+}
+.githubCalendarDiv{
+    width: 100%;
+    margin: auto;
+    padding: 30px 0px;
+    border-radius: 25px;
+    background-color: var(--primary-color);
+}
+.react-activity-calendar{
+    margin: auto;
+    color: white;
+}
+.githubMainContainer{
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.githubCardDiv{
+    height: 250px;
+    margin: 10px;
+    background-color: var(--primary-color);
+    border-radius: 25px;
+}
+.githubCard{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .githubMainContainer{
+        flex-direction: column;
+    }
+    .githubCard{
+        width: 100%;
+    }
+}
+@media all and (max-width: 768px) {
+    #githubMainDiv{
+        width: 90%;
+    }
+    .githubHeading{
+        font-size: 42px;
+        margin: 0%;
+    }
+    .githubMainContainer{
+        flex-direction: column;
+    }
+    .githubCardDiv{
+        width: 100%;
+        height: 100%;
+        margin: 10px auto;
+    }
+}

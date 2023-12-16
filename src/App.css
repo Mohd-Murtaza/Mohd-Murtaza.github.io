@@ -1,0 +1,10 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: var(--primary-color);
+  /* background-color: black; */
+  font-family: sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}

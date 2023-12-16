@@ -1,0 +1,66 @@
+.skillsMainContainer{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+}
+.skillsHeading{
+    color: var(--secondary-color);
+    font-size: 58px;
+    text-align: center;
+}
+.skillsCardsMainDiv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.skillsCard{
+    width: 150px;
+    padding: 5px 0px;
+    border-radius: 12px;
+    box-shadow: hsla(174, 43%, 45%, 0.4) 0px 2px 4px 0px, hsla(174, 43%, 45%, 0.4) 0px 2px 16px 0px;
+    transition: .3s ease-in-out;
+}
+.skillsCard:hover{
+    /* scale: 1.1; */
+    transform: translateY(-20px);
+    cursor: pointer;
+    box-shadow: hsla(174, 43%, 45%, 0.4) 0px 2px 4px 0px, hsla(0, 0%, 100%, 0.8) 0px 2px 16px 0px;
+}
+.skillsImgDiv{
+    width: 60px;
+    margin: auto;
+    margin-top: 10px;
+}
+.skillsImg{
+    width: 60px;
+    height: 60px;
+}
+.skillsText{
+    text-align: center;
+    color: var(--font-color);
+}
+@media all and (max-width: 768px){
+    .skillsMainContainer{
+        width: 95%;
+    }
+    .skillsHeading{
+        font-size: 42px;
+    }
+    .skillsCard{
+        width: 110px;
+        height: 110px;
+    }
+    .skillsImgDiv{
+        width: 50px;
+    }
+    .skillsImg{
+        width: 50px;
+        height: 50px;
+    }
+    .skillsText{
+        font-size: 16px;
+    }
+}

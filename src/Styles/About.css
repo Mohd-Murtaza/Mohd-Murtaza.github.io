@@ -1,0 +1,91 @@
+.aboutMainContainer{
+    width: 85%;
+    margin: auto;
+    margin-top: 60px;
+    
+}
+.aboutHr{
+    width: 100%;
+    border: 3px solid var(--secondary-color) ;
+    color: var(--secondary-color);
+    border-radius: 3px;
+}
+.aboutContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.whoImContainer{
+    width: 40%;
+}
+.whoImText{
+    font-size: 58px;
+    color: var(--secondary-color);
+}
+.whoImDetailText{
+    font-size: 22px;
+    color: var(--font-color);
+}
+
+.aboutVectorDiv{
+    margin: auto;
+}
+.aboutVector{
+    width: 600px;
+}
+
+
+@media all and (max-width: 1160px) {
+    .whoImContainer{
+        width: 60%;
+    }
+    .aboutVector{
+        width: 450px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .aboutVectorDiv{
+        margin:auto;
+    }
+    .aboutMainContainer{
+        width: 95%;
+    }
+    .whoImText{
+        margin: 0;
+    }
+    .whoImContainer{
+        width: 100%;
+    }
+    .aboutContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+@media all and (max-width: 768px){
+    .aboutContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .aboutVectorDiv{
+        margin:auto;
+    }
+    .aboutMainContainer{
+        width: 95%;
+    }
+    .whoImText{
+        margin: 0;
+        text-align: center;
+        font-size: 42px;
+    }
+    .whoImDetailText{
+        font-size: 14px;
+        color: var(--font-color);
+    }
+    .whoImContainer{
+        width: 100%;
+    }
+    .aboutVector{
+        width: 270px;
+    }
+}
