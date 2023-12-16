@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.85fb7d7a.css",
-    "main.js": "/static/js/main.15599473.js",
+    "main.js": "/static/js/main.e420f423.js",
     "static/media/WeatherProject.mp4": "/static/media/WeatherProject.8bc2f7af0ca91495df9e.mp4",
     "static/media/ExpediaProject.mp4": "/static/media/ExpediaProject.dc57354575ca796a2b47.mp4",
     "static/media/myProfile.png": "/static/media/myProfile.6b157ad2c0eae4330409.png",
@@ -30,10 +30,10 @@
     "static/media/css.svg": "/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "main.85fb7d7a.css.map": "/static/css/main.85fb7d7a.css.map",
-    "main.15599473.js.map": "/static/js/main.15599473.js.map"
+    "main.e420f423.js.map": "/static/js/main.e420f423.js.map"
   },
   "entrypoints": [
     "static/css/main.85fb7d7a.css",
-    "static/js/main.15599473.js"
+    "static/js/main.e420f423.js"
   ]
 }
