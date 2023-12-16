@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce0c5c55.css",
+    "main.js": "/static/js/main.e46a5aa3.js",
+    "static/media/WeatherProject.mp4": "/static/media/WeatherProject.8bc2f7af0ca91495df9e.mp4",
+    "static/media/myProfileImage.jpg": "/static/media/myProfileImage.6701b910ab079a9bb8a3.jpg",
+    "static/media/ExpediaProject.mp4": "/static/media/ExpediaProject.dc57354575ca796a2b47.mp4",
+    "static/media/workTogether.svg": "/static/media/workTogether.67525d980aec54da61d9ec37b0c15664.svg",
+    "static/media/education.png": "/static/media/education.8f1c2ac6e41dabd3f6c7.png",
+    "static/media/masai.png": "/static/media/masai.3400e1f6e25a8a03307e.png",
+    "static/media/BestermindRegular.ttf": "/static/media/BestermindRegular.e58a192233afb30a6a59.ttf",
+    "static/media/about3.png": "/static/media/about3.7ce640d566f0fb92093f.png",
+    "static/media/MurtazaCV.pdf": "/static/media/MurtazaCV.dad058bd86dfe30735d8.pdf",
+    "static/media/experience.png": "/static/media/experience.30f8d02da52a4092081a.png",
+    "static/media/postman.svg": "/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
+    "static/media/bash.svg": "/static/media/bash.12b9574c657e4e3629a692b1f78fdb65.svg",
+    "static/media/react.svg": "/static/media/react.6d4dd5dfc6163bdfcfe520bd6bef1a6a.svg",
+    "static/media/node-js.svg": "/static/media/node-js.a7f2ccf30eed3e5878a2ba1e6be108a2.svg",
+    "static/media/redux.svg": "/static/media/redux.a907b9f98d324503c0c0d9ac2991eb03.svg",
+    "static/media/vs-code.svg": "/static/media/vs-code.3d8fea0ed9043ed9bf421bbdb507a21e.svg",
+    "static/media/json.svg": "/static/media/json.9ad2fad64f5dbca76afffdb67aceaf88.svg",
+    "static/media/vite.svg": "/static/media/vite.d093fea5c37d0d5a4568150e2e326166.svg",
+    "static/media/git.svg": "/static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
+    "static/media/material-ui.svg": "/static/media/material-ui.734426c25d85d6f02b49b98d28ef9f03.svg",
+    "static/media/js.svg": "/static/media/js.2cb10113045b7f7423443ff02d1d26d0.svg",
+    "static/media/dom.svg": "/static/media/dom.6ea97fcb2ed0bce4ba94b1d0d6966baf.svg",
+    "index.html": "/index.html",
+    "static/media/chakra-ui.svg": "/static/media/chakra-ui.c2854e4b857cdf4ddd0f8841a51c7981.svg",
+    "static/media/npm.svg": "/static/media/npm.5f1f1b140a85362d7ee08b82c27dfb89.svg",
+    "static/media/css.svg": "/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
+    "static/media/html.svg": "/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
+    "main.ce0c5c55.css.map": "/static/css/main.ce0c5c55.css.map",
+    "main.e46a5aa3.js.map": "/static/js/main.e46a5aa3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce0c5c55.css",
+    "static/js/main.e46a5aa3.js"
+  ]
+}
