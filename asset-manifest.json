@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.85fb7d7a.css",
-    "main.js": "/static/js/main.e420f423.js",
+    "main.js": "/static/js/main.ea1aa143.js",
     "static/media/WeatherProject.mp4": "/static/media/WeatherProject.8bc2f7af0ca91495df9e.mp4",
+    "static/media/Murtaza_Resume.pdf": "/static/media/Murtaza_Resume.e8fc293d3ed684e3c5cf.pdf",
     "static/media/ExpediaProject.mp4": "/static/media/ExpediaProject.dc57354575ca796a2b47.mp4",
     "static/media/myProfile.png": "/static/media/myProfile.6b157ad2c0eae4330409.png",
     "static/media/workTogether.svg": "/static/media/workTogether.67525d980aec54da61d9ec37b0c15664.svg",
@@ -10,7 +11,6 @@
     "static/media/masai.png": "/static/media/masai.3400e1f6e25a8a03307e.png",
     "static/media/BestermindRegular.ttf": "/static/media/BestermindRegular.e58a192233afb30a6a59.ttf",
     "static/media/about3.png": "/static/media/about3.7ce640d566f0fb92093f.png",
-    "static/media/MurtazaCV.pdf": "/static/media/MurtazaCV.dad058bd86dfe30735d8.pdf",
     "static/media/experience.png": "/static/media/experience.30f8d02da52a4092081a.png",
     "static/media/postman.svg": "/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
     "static/media/bash.svg": "/static/media/bash.12b9574c657e4e3629a692b1f78fdb65.svg",
@@ -30,10 +30,10 @@
     "static/media/css.svg": "/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "main.85fb7d7a.css.map": "/static/css/main.85fb7d7a.css.map",
-    "main.e420f423.js.map": "/static/js/main.e420f423.js.map"
+    "main.ea1aa143.js.map": "/static/js/main.ea1aa143.js.map"
   },
   "entrypoints": [
     "static/css/main.85fb7d7a.css",
-    "static/js/main.e420f423.js"
+    "static/js/main.ea1aa143.js"
   ]
 }
