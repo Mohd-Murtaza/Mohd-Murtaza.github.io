@@ -2,14 +2,14 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import "../Styles/Landing.css";
 import profileImg from "../assets/myProfile.png";
-import MurtazaCV from "../assets/MurtazaCV.pdf";
+import MurtazaCV from "../assets/Murtaza_Resume.pdf";
 
 const Landing = () => {
   const handleButtonClick = () => {
     window.open(MurtazaCV, "_blank");
     const link = document.createElement("a");
     link.href = MurtazaCV;
-    link.download = "MurtazaCV.pdf";
+    link.download = "Murtaza_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -29,7 +29,7 @@ const Landing = () => {
               what you do. Attitude determines how well you do it.
             </h3>
             <div className="landingBtnDiv">
-              <a href={MurtazaCV} download="MurtazaCV.pdf" target="_blank">
+              <a href={MurtazaCV} download="Murtaza_Resume.pdf" target="_blank">
                 <button className="landingCV-Btn" onClick={handleButtonClick}>
                   Resume
                 </button>

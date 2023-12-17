@@ -44,16 +44,16 @@ const Experience = () => {
               <div className="experienceRoles-Responsibilities">
                 <h2 className="experienceH2Text">Roles & Resposibilities</h2>
                 <ul style={{ margin: "0%" }}>
-                  <li className="experienceLiText">Managing Costomers</li>
+                  <li className="experienceLiText">Managing Customers</li>
                   <li className="experienceLiText">Managing Mails Queries</li>
                   <li className="experienceLiText">
                     Managing Website ans Application
                   </li>
                   <li className="experienceLiText">
-                    Sometime Video Shooting and Video Diraction
+                    Sometimes Video Shooting and Video Direction
                   </li>
                   <li className="experienceLiText">
-                    Managing Website Back-end Panel
+                    Managing Website's Back-end Panel
                   </li>
                 </ul>
               </div>

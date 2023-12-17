@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MurtazaCV from "../assets/MurtazaCV.pdf";
+import MurtazaCV from "../assets/Murtaza_Resume.pdf";
 import "../Styles/Navbar.css";
 const links = [
   {
@@ -42,7 +42,7 @@ const Navbar = () => {
     window.open(MurtazaCV, "_blank");
     const link = document.createElement("a");
     link.href = MurtazaCV;
-    link.download = "MurtazaCV.pdf";
+    link.download = "Murtaza_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -87,7 +87,7 @@ const Navbar = () => {
             ))}
           </div>
           <div className="navbarResumeBtnDiv">
-            <a href={MurtazaCV} download="MurtazaCV.pdf" target="_blank">
+            <a href={MurtazaCV} download="Murtaza_Resume.pdf" target="_blank">
               <button className="navbarResumeBtn" onClick={handleButtonClick}>
                 Resume
               </button>
