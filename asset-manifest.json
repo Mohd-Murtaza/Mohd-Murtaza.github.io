@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.85fb7d7a.css",
+    "main.css": "/static/css/main.3e21ac81.css",
     "main.js": "/static/js/main.ea1aa143.js",
     "static/media/WeatherProject.mp4": "/static/media/WeatherProject.8bc2f7af0ca91495df9e.mp4",
     "static/media/Murtaza_Resume.pdf": "/static/media/Murtaza_Resume.e8fc293d3ed684e3c5cf.pdf",
@@ -29,11 +29,11 @@
     "static/media/npm.svg": "/static/media/npm.5f1f1b140a85362d7ee08b82c27dfb89.svg",
     "static/media/css.svg": "/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
-    "main.85fb7d7a.css.map": "/static/css/main.85fb7d7a.css.map",
+    "main.3e21ac81.css.map": "/static/css/main.3e21ac81.css.map",
     "main.ea1aa143.js.map": "/static/js/main.ea1aa143.js.map"
   },
   "entrypoints": [
-    "static/css/main.85fb7d7a.css",
+    "static/css/main.3e21ac81.css",
     "static/js/main.ea1aa143.js"
   ]
 }
