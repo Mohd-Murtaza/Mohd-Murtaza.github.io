@@ -10,10 +10,11 @@
 .projectsDiv{
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 .projectCard{
     width: 45%;
-    padding:10px;
+    /* padding:10px; */
     margin: auto;
     border-radius: 25px;
     background-color: #41a399a4;
@@ -25,9 +26,9 @@
     font-weight: 900;
 }
 .projectVideo{
-    width: 100%;
+    width: 95%;
     height: auto;
-    margin-left:auto;
+    margin:  auto 2.5%;
     border-radius: 12px;
 }
 .description-techStackDiv{
@@ -36,18 +37,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 5px;
 }
 .projectDescriptionDiv, .projectTechStackDiv{
-    width: 100%;
+    width: 95%;
+    margin:  auto 2.5%;
     color: white;
     background-color: var(--primary-color);
     /* padding: 5px; */
     border-radius: 12px;
 }
 .projectTechStackDiv{
-    width: 100%;
-    height: 150px;
+    width: 95%;
+    margin:  auto 2.5% 10px;
+    height: 180px;
 }
 .projectDescriptionDiv>h3,h4, .projectTechStackDiv>h3,h4{
     text-align: center;
@@ -77,7 +80,21 @@
 }
 
 
-
+@media all and (min-width:768px) and (max-width:1000px) {
+    .projectMainContainer{
+        width: 80%;
+    }
+    .projectsDiv{
+       flex-direction: column;
+       row-gap: 20px;
+    }
+    .projectHeading{
+        font-size: 58px;
+    }
+    .projectCard{
+        width: 95%;
+    }
+}
 
 @media all and (max-width: 768px) {
     .projectMainContainer{
@@ -92,6 +109,5 @@
     }
     .projectCard{
         width: 95%;
-
     }
 }

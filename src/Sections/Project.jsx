@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/Project.css";
 import expediaProjectVideo from "../assets/ExpediaProject.mp4";
 import weatherProjectVideo from "../assets/WeatherProject.mp4";
+import fiverrProjectVideo from "../assets/FiverrCloneUI.mp4";
 
 const Project = () => {
   return (
@@ -9,6 +10,45 @@ const Project = () => {
       <div className="projectMainContainer">
         <h1 className="projectHeading">Projects</h1>
         <div className="projectsDiv">
+          <div className="projectCard">
+            <h3 className="projectNameText">Fiverr Clone</h3>
+            <div className="projectVideoDiv">
+              <video className="projectVideo" autoPlay loop muted>
+                <source src={fiverrProjectVideo} type="video/mp4" />
+              </video>
+            </div>
+            <div className="description-techStackDiv">
+              <div className="projectDescriptionDiv">
+                <h3>Description</h3>
+                <h4>
+                  The Fiverr website is a globally recognized online marketplace
+                  that connects freelancers with clients who need their
+                  services.
+                </h4>
+              </div>
+              <div className="projectBtnsDiv">
+                <a
+                  href="https://fiverr-clone-murtaza.netlify.app/"
+                  target="_blank"
+                >
+                  <button className="projectBtns">Live</button>
+                </a>
+                <a
+                  href="https://github.com/Mohd-Murtaza/Fiverr_Backend"
+                  target="_blank"
+                >
+                  <button className="projectBtns">Github</button>
+                </a>
+              </div>
+              <div className="projectTechStackDiv">
+                <h3>Tech-Stack</h3>
+                <h4>
+                  Node.js <br /> Express.js <br /> React <br /> CSS <br /> Java
+                  Script <br /> Chakra UI <br />
+                </h4>
+              </div>
+            </div>
+          </div>
           <div className="projectCard">
             <h3 className="projectNameText">Expedia Clone</h3>
             <div className="projectVideoDiv">
@@ -58,7 +98,9 @@ const Project = () => {
               <div className="projectDescriptionDiv">
                 <h3>Description</h3>
                 <h4>
-                 This is the Weather app where you can check the current weather details across the world. You can check the 7-day forecast as well as. 
+                  This is the Weather app where you can check the current
+                  weather details across the world. You can check the 7-day
+                  forecast as well as.
                 </h4>
               </div>
               <div className="projectBtnsDiv">
@@ -78,7 +120,7 @@ const Project = () => {
               <div className="projectTechStackDiv">
                 <h3>Tech-Stack</h3>
                 <h4>
-                  HTML <br/> CSS <br /> Java Script
+                  HTML <br /> CSS <br /> Java Script
                 </h4>
               </div>
             </div>

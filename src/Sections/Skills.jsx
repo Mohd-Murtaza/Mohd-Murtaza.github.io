@@ -16,7 +16,7 @@ import vsCode from "../assets/vs-code.svg";
 import nodeJs from "../assets/node-js.svg";
 import npm from "../assets/npm.svg";
 import vite from "../assets/vite.svg";
-import FadeInSection from "../Utills/FadeInSection";
+import express from "../assets/express.svg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -33,6 +33,7 @@ const Skills = () => {
     { img: chakraUi, name: "Chakra UI" },
     { img: json, name: "Json" },
     { img: vite, name: "Vite" },
+    { img: express, name: "Express" },
   ];
   const tools=[
     { img: postman, name: "Postman" },

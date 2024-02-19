@@ -32,7 +32,7 @@ export default function Github() {
             <img
               className="githubCard"
               width="100%"
-              src="https://github-readme-streak-stats.herokuapp.com/?user=misprachi023&theme=transparent&hide_border=true&title_color=white&text_color=#32de84&sideNums=white&sideLabels=white&ring=white&fire=white&currStreakLabel=white&currStreakNum=white"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=mohd-murtaza&theme=transparent&hide_border=true&title_color=white&text_color=#32de84&sideNums=white&sideLabels=white&ring=white&fire=white&currStreakLabel=white&currStreakNum=white"
               alt=""
             />
           </div>
