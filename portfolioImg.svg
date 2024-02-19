@@ -1,0 +1,11 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg fill="#ffffff" width="250px" height="250px" viewBox="0 0 24 24" id="portfolio" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier">
+<path id="primary" d="M21,11v9a2,2,0,0,1-2,2H5a2,2,0,0,1-2-2V11a1,1,0,0,1,1-1H20a1,1,0,0,1,1,1ZM16,8H8A1,1,0,0,1,7,7V4A2,2,0,0,1,9,2h6a2,2,0,0,1,2,2V7A1,1,0,0,1,16,8ZM9,6h6V4H9Z" style="fill: #ffffff;"/>
+<path id="secondary" d="M20,6H4A2,2,0,0,0,2,8v.88A6.11,6.11,0,0,0,8.12,15h7.76A6.11,6.11,0,0,0,22,8.88V8A2,2,0,0,0,20,6Z" style="fill: #2ca;"/>
+<path id="primary-2" data-name="primary" d="M13,16H11a1,1,0,0,1-1-1V13a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1v2A1,1,0,0,1,13,16Zm-1-2h0Z" style="fill: #ffffff;"/>
+</g>
+</svg>
