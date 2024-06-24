@@ -12,6 +12,7 @@ import Github from './Sections/Github'
 
 
 function App() {
+
   return (
     <>
       <AnimatedCursor 

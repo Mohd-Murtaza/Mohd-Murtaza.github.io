@@ -2,21 +2,20 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import "../Styles/Landing.css";
 import profileImg from "../assets/myProfile.png";
-import MurtazaCV from "../assets/Murtaza_Resume.pdf";
+import MurtazaCV from "../assets/MohdMurtaza-FullStackWebDev.pdf";
 
 const Landing = () => {
-  const handleButtonClick = () => {
+  const handleLandingButtonClick = () => {
     window.open(MurtazaCV, "_blank");
     const link = document.createElement("a");
     link.href = MurtazaCV;
-    link.download = "Murtaza_Resume.pdf";
-    document.body.appendChild(link);
+    link.download = "MohdMurtaza-FullStackWebDev.pdf";
     link.click();
-    document.body.removeChild(link);
   };
   return (
     <>
       <Navbar />
+      <section id="landing">
       <div className="landingMainContainer">
         <img className="profileImg" src={profileImg} alt="" />
         <div className="landingLeftContainer"></div>
@@ -29,11 +28,9 @@ const Landing = () => {
               what you do. Attitude determines how well you do it.
             </h3>
             <div className="landingBtnDiv">
-              <a href={MurtazaCV} download="Murtaza_Resume.pdf" target="_blank">
-                <button className="landingCV-Btn" onClick={handleButtonClick}>
-                  Resume
-                </button>
-              </a>
+              <button className="landingCV-Btn" onClick={handleLandingButtonClick}>
+                Resume
+              </button>
               <a href="#contact">
                 <button className="landingContact-Btn">Contact</button>
               </a>
@@ -41,6 +38,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      </section> 
     </>
   );
 };

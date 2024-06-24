@@ -1,13 +1,17 @@
 import React, { useState } from "react";
-import MurtazaCV from "../assets/Murtaza_Resume.pdf";
+import MurtazaCV from "../assets/MohdMurtaza-FullStackWebDev.pdf";
 import "../Styles/Navbar.css";
 const links = [
+  {
+    link:"#landing",
+    title:"Home"
+  },
   {
     link: "#about",
     title: "About",
   },
   {
-    link: "#github",
+    link: "#github", 
     title: "Github",
   },
   {
@@ -42,10 +46,8 @@ const Navbar = () => {
     window.open(MurtazaCV, "_blank");
     const link = document.createElement("a");
     link.href = MurtazaCV;
-    link.download = "Murtaza_Resume.pdf";
-    document.body.appendChild(link);
+    link.download = "MohdMurtaza-FullStackWebDev.pdf";
     link.click();
-    document.body.removeChild(link);
   };
 
   return (
@@ -62,7 +64,6 @@ const Navbar = () => {
             <span></span>
             <span></span>
             <ul id="menu">
-              {/* <div className='overlay'></div> */}
               {links.map((link, index) => {
                 return (
                   <li key={index}>
@@ -87,11 +88,9 @@ const Navbar = () => {
             ))}
           </div>
           <div className="navbarResumeBtnDiv">
-            <a href={MurtazaCV} download="Murtaza_Resume.pdf" target="_blank">
-              <button className="navbarResumeBtn" onClick={handleButtonClick}>
-                Resume
-              </button>
-            </a>
+            <button className="navbarResumeBtn" onClick={handleButtonClick}>
+              Resume
+            </button>
           </div>
           <div className="nameBestermindFontDiv">
             <h1 className="nameBestermindFont">&lt;Murtaza&#47;&gt;</h1>

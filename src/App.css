@@ -8,3 +8,6 @@ body{
 html{
   scroll-behavior: smooth;
 }
+.scroll-to-top{
+  background-color: red;
+}

@@ -15,8 +15,6 @@
     border-radius: 50%;
     object-fit: cover;
     position: absolute;
-    /* top: calc(50%-200px); */
-    /* left: calc(35% -200px); */
     top: 50%;
     left: 35%;
     transform: translateX(-50%) translateY(-50%);;
@@ -126,6 +124,7 @@
     }
     .landingRightContainer{
         width: 90%;
+        height: 55vh;
         margin-top: 100px;
     }
     .landingDetailsContainer{
@@ -141,15 +140,23 @@
         font-weight: 100;
     }
     .landingBtnDiv{
+        margin: 30% auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        row-gap: 10px;
+        row-gap: 30px;
+   }
+   .landingBtnDiv>a{
+    width: 60%;
+    margin: auto;
    }
     .landingCV-Btn, .landingContact-Btn{
-        font-size: .8rem;
+        width: 60%;
+        margin: auto;
     }
     .landingContact-Btn{
        margin-left: 0px;
+       margin: auto;
+       width: 100%;
     }
 } 

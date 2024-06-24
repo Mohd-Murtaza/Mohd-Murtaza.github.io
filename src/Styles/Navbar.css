@@ -17,16 +17,21 @@
 }
 .navbarContainer{
     margin: auto;
-    margin-top: 10px;
+    padding-top: 10px;
+    /* height: 60px; */
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* background-color: blueviolet; */
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .678);
+    /* background-color: #41a39975; */
+    /* background-color: var(--primary-color); */
 }
 .nameBestermindFontDiv{
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 .nameBestermindFont{
     color: var(--secondary-color);
@@ -78,7 +83,7 @@
     display: none;
     position: relative;
     margin-left: 50px;
-    top: 10px;
+    /* top: 20px; */
     right: 0px;
     /* z-index: 10; */
     -webkit-user-select: none;
@@ -117,7 +122,7 @@
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: var(--primary-color);
+    background: var(--secondary-color);
     border-radius: 3px;
     z-index: 3;
     transform-origin: 4px 0px;
@@ -218,12 +223,12 @@
     margin-right: 20px;
   }
   .nameBestermindFont{
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 1.5rem;
   }
   .navbarMainDiv{
     position: absolute;
-    background-color: transparent;
+    /* background-color: transparent; */
   }
   .navbarTabsContainer{
     display: none;

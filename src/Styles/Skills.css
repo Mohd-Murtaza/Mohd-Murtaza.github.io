@@ -28,7 +28,7 @@
     transform: translateY(-20px);
     cursor: pointer;
     box-shadow: hsla(174, 43%, 45%, 0.4) 0px 2px 4px 0px, hsla(0, 0%, 100%, 0.8) 0px 2px 16px 0px;
-}
+}  
 .skillsImgDiv{
     width: 60px;
     margin: auto;
