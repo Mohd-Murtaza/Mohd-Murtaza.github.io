@@ -1,3 +1,6 @@
+#projects{
+    padding-top: 1.5rem;
+}
 .projectMainContainer{
     width: 95%;
     margin: auto;
@@ -5,6 +8,7 @@
 .projectHeading{
     text-align: center;
     font-size: 58px;
+    margin-bottom: 1rem;
     color: var(--secondary-color);
 }
 .projectsDiv{

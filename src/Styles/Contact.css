@@ -1,3 +1,6 @@
+#contact{
+    padding-top: 1.5rem;
+}
 .contactMainContainer{
     width: 95%;
     margin: auto;
@@ -7,6 +10,7 @@
 .contactHeading{
     color: var(--secondary-color);
     font-size: 58px;
+    margin-bottom: 1rem;
 }
 .contactContainer{
     display: flex;

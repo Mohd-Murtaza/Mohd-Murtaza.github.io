@@ -1,3 +1,6 @@
+#experience{
+    padding-top: 1.5rem;
+}
 .experienceMainContainer{
     width: 85%;
     /* height: 100vh; */
@@ -7,6 +10,7 @@
 .experiencceHeading{
     text-align: start;
     font-size: 58px;
+    margin-bottom: 0;
     color: var(--secondary-color);
 }
 .experienceContainer{

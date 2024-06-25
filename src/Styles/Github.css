@@ -1,3 +1,6 @@
+#github{
+    padding-top: 1.5rem;
+}
 #githubMainDiv{
     width: 95%;
     margin: auto;
@@ -6,6 +9,7 @@
 .githubHeading{
     text-align: center;
     font-size: 58px;
+    margin-bottom: 5px;
     color: var(--secondary-color);
 }
 .githubCalendarDiv{
@@ -26,7 +30,7 @@
     justify-content: space-between;
 }
 .githubCardDiv{
-    height: 250px;
+    height: 230px;
     margin: 10px;
     background-color: var(--primary-color);
     border-radius: 25px;
@@ -50,7 +54,6 @@
     }
     .githubHeading{
         font-size: 42px;
-        margin: 0%;
     }
     .githubMainContainer{
         flex-direction: column;
