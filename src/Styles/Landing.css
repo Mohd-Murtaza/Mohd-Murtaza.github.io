@@ -136,8 +136,9 @@
         margin: 8px 0px 16px;
     }
     .landingH3Details{
-        font-size: 14px;
-        font-weight: 100;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 30px;
     }
     .landingBtnDiv{
         margin: 30% auto;
