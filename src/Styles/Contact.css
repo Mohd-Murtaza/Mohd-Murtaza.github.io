@@ -61,8 +61,8 @@
     box-shadow: hsla(174, 43%, 45%, 0.4) 0px 2px 4px 0px, hsla(0, 0%, 100%, 0.8) 0px 2px 16px 0px;
     outline: none;
 }
-.contactInputContainer>.contactInp:nth-child(3)>.input{
-    height: 120px;
+#mailForm>.contactInp:nth-child(3)>.input{
+    height: 120px !important;
     /* margin: 0%; */
     padding: 15px !important;
 }

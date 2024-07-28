@@ -6,7 +6,7 @@ export default function Github() {
     <>
       <section id="github">
         <div id="githubMainDiv">
-          <h1 className="githubHeading">Github Status</h1>
+          <h1 className="githubHeading">Github Stats</h1>
           <div className="githubCalendarDiv">
           <GitHubCalendar
               className="react-activity-calendar"
