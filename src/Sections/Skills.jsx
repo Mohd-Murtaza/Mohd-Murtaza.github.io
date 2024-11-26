@@ -45,8 +45,8 @@ const Skills = () => {
   ]
   useEffect(()=>{
     AOS.init({
-      offset: 200,
-      duration: 800,
+      offset: 20,
+      duration: 500,
       easing: 'ease-in',
       delay: 100,
     });

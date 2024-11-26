@@ -19,15 +19,12 @@
 }
 .contactInputContainer{
     width: 35%;
-    /* background-color: aqua; */
 }
 .contactDetailsContainer{
     width: 35%;
-    /* background-color: brown; */
 }
 .contactImgContainer{
     width: 30%;
-    /* background-color: blueviolet; */
 }
 .contactInp{
     display: flex;
@@ -36,14 +33,13 @@
 }
 .contactInp>label{
     position: absolute;
-    top: 20px;
+    top: 16px;
     left: 20px;
     color: var(--secondary-color);
     font-size: 14px;
     padding: 2px 5px;
-    background-color: #1e2929;
+    background-color: #1d2121;
     font-weight: 700;
-    border-radius: 10px;
 }
 .input{
     display: block;
@@ -60,10 +56,10 @@
 .input:focus{
     box-shadow: hsla(174, 43%, 45%, 0.4) 0px 2px 4px 0px, hsla(0, 0%, 100%, 0.8) 0px 2px 16px 0px;
     outline: none;
+    background-color: transparent;
 }
 #mailForm>.contactInp:nth-child(3)>.input{
     height: 120px !important;
-    /* margin: 0%; */
     padding: 15px !important;
 }
 
@@ -79,11 +75,31 @@
     transition: all .3s ease;
 }
 .SendBtn:hover{
+    cursor: pointer !important;
     background-color: white;
     color: var(--primary-color);
     scale: 1.05;
 }
 
+.spinner {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-top: 2px solid #000000;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    animation: spin 0.8s linear infinite;    
+    margin: auto;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
 
 
 
@@ -96,7 +112,6 @@
 .contactImgDiv{
     width: 40px;
     height: 40px;
-    /* background-color: red; */
     transition: all .3s ease;
 }
 .contactImg{
@@ -108,10 +123,11 @@
     transition: all .3s ease;
 }
 .contactImg:hover{
+    cursor: pointer;
     scale: 1.25;
     background-color: white;
 }
-.ccontactText{
+.contactText{
     margin: auto;
     color: white;
     margin-left: 20px;
@@ -173,7 +189,7 @@
         left: 10%;
     }
     .SendBtn{
-        margin-left: 10%;
+        margin-left: 7%;
     }
     .contactDetailsContainer{
         width: 95%;
@@ -191,7 +207,7 @@
         width: 20px;
         height: 20px;
     }
-    .ccontactText{
+    .contactText{
         margin-left: 10px;
         font-size: 14px;
     }

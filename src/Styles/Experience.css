@@ -7,7 +7,7 @@
     margin: auto;
     margin-top: 50px;
 }
-.experiencceHeading{
+.experienceHeading{
     text-align: start;
     font-size: 58px;
     margin-bottom: 0;
@@ -43,11 +43,15 @@
     transition: .5s;
 }
 .experienceLiText{
-    margin: 0px;
+    margin: 5px 0px;
+    padding: 0px;
     font-size: 16px;
     font-weight: 700;
     color: var(--primary-color);
     transition: .5s;
+}
+.experienceVectorDiv{
+    margin: auto;
 }
 .experienceVector{
     width: 400px;
@@ -69,7 +73,7 @@
         width: 80%;
         margin: auto;
     }
-    .experienceCradsMainDiv{
+    .experienceCardsMainDiv{
         width: 100%;
     }
     .experienceCompanyDiv,.experienceRoles-Responsibilities{
@@ -86,11 +90,11 @@
         width: 95%;
         margin: auto;
     }
-    .experiencceHeading{
+    .experienceHeading{
         text-align: center;
         font-size: 42px;
     }
-    .experienceCradsMainDiv{
+    .experienceCardsMainDiv{
         margin: auto;
         width: 95%;
     }
